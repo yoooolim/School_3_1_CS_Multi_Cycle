@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Xilinx/Project2/tb_top.xst" -ofn "C:/Xilinx/Project2/tb_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 tb_top.ngc tb_top.ngd  

@@ -1,0 +1,54 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Xilinx/Project2/tb_top_isim_beh.exe -prj C:/Xilinx/Project2/tb_top_beh.prj work.tb_top work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Xilinx/Project2/MyFSM.v" into library work
+Analyzing Verilog file "C:/Xilinx/Project2/MainFSM.v" into library work
+Analyzing Verilog file "C:/Xilinx/Project2/TopFSM.v" into library work
+Analyzing Verilog file "C:/Xilinx/Project2/SEU.v" into library work
+Analyzing Verilog file "C:/Xilinx/Project2/RF.v" into library work
+Analyzing Verilog file "C:/Xilinx/Project2/PC.v" into library work
+Analyzing Verilog file "C:/Xilinx/Project2/MEM.v" into library work
+WARNING:HDLCompiler:991 - "C:/Xilinx/Project2/MEM.v" Line 31: Event expressions must result in a singular type
+Analyzing Verilog file "C:/Xilinx/Project2/MDR.v" into library work
+Analyzing Verilog file "C:/Xilinx/Project2/IR.v" into library work
+Analyzing Verilog file "C:/Xilinx/Project2/B.v" into library work
+Analyzing Verilog file "C:/Xilinx/Project2/ALUOut.v" into library work
+Analyzing Verilog file "C:/Xilinx/Project2/ALUControl.v" into library work
+Analyzing Verilog file "C:/Xilinx/Project2/ALU.v" into library work
+Analyzing Verilog file "C:/Xilinx/Project2/A.v" into library work
+Analyzing Verilog file "C:/Xilinx/Project2/MultiCycleCPU.v" into library work
+Analyzing Verilog file "C:/Xilinx/Project2/tb_Top.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "C:/Xilinx/Project2/MultiCycleCPU.v" Line 33: Size mismatch in connection of port <i_data1>. Formal port size is 32-bit while actual signal size is 5-bit.
+WARNING:HDLCompiler:189 - "C:/Xilinx/Project2/MultiCycleCPU.v" Line 34: Size mismatch in connection of port <i_data4>. Formal port size is 32-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "C:/Xilinx/Project2/MultiCycleCPU.v" Line 45: Size mismatch in connection of port <i_data4>. Formal port size is 32-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "C:/Xilinx/Project2/MultiCycleCPU.v" Line 25: Size mismatch in connection of port <i_data4>. Formal port size is 32-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "C:/Xilinx/Project2/TopFSM.v" Line 46: Size mismatch in connection of port <IorD>. Formal port size is 1-bit while actual signal size is 2-bit.
+Completed static elaboration
+Compiling module PC
+Compiling module MUX4_1
+Compiling module MEM
+Compiling module MDR
+Compiling module IR
+Compiling module MainFSM
+Compiling module MyFSM
+Compiling module TopFSM
+Compiling module RF
+Compiling module A
+Compiling module B
+Compiling module SEU
+Compiling module ALUControl
+Compiling module ALU
+Compiling module ALUOut
+Compiling module MultiCycleCPU
+Compiling module tb_top
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 3 sub-compilation(s) to finish...
+Compiled 18 Verilog Units
+Built simulation executable C:/Xilinx/Project2/tb_top_isim_beh.exe
+Fuse Memory Usage: 28924 KB
+Fuse CPU Usage: 812 ms

@@ -1,0 +1,74 @@
+vhdtdtfi -lib work C:/Xilinx/Project2/MultiCycleCPU.v -lang verilog -prj Project2 -o MultiCycleCPU.spl -module MultiCycleCPU -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 MultiCycleCPU.spl C:/Xilinx/Project2/MultiCycleCPU.sym 
+xst -intstyle ise -ifn "C:/Xilinx/Project2/MultiCycleCPU.xst" -ofn "C:/Xilinx/Project2/MultiCycleCPU.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Project2/MultiCycleCPU.xst" -ofn "C:/Xilinx/Project2/MultiCycleCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 MultiCycleCPU.ngc MultiCycleCPU.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o MultiCycleCPU_map.ncd MultiCycleCPU.ngd MultiCycleCPU.pcf 
+par -w -intstyle ise -ol high -mt off MultiCycleCPU_map.ncd MultiCycleCPU.ncd MultiCycleCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MultiCycleCPU.twx MultiCycleCPU.ncd -o MultiCycleCPU.twr MultiCycleCPU.pcf 
+xst -intstyle ise -ifn "C:/Xilinx/Project2/MultiCycleCPU.xst" -ofn "C:/Xilinx/Project2/MultiCycleCPU.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Project2/MultiCycleCPU.xst" -ofn "C:/Xilinx/Project2/MultiCycleCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 MultiCycleCPU.ngc MultiCycleCPU.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o MultiCycleCPU_map.ncd MultiCycleCPU.ngd MultiCycleCPU.pcf 
+par -w -intstyle ise -ol high -mt off MultiCycleCPU_map.ncd MultiCycleCPU.ncd MultiCycleCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MultiCycleCPU.twx MultiCycleCPU.ncd -o MultiCycleCPU.twr MultiCycleCPU.pcf 
+xst -intstyle ise -ifn "C:/Xilinx/Project2/MultiCycleCPU.xst" -ofn "C:/Xilinx/Project2/MultiCycleCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 MultiCycleCPU.ngc MultiCycleCPU.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o MultiCycleCPU_map.ncd MultiCycleCPU.ngd MultiCycleCPU.pcf 
+par -w -intstyle ise -ol high -mt off MultiCycleCPU_map.ncd MultiCycleCPU.ncd MultiCycleCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MultiCycleCPU.twx MultiCycleCPU.ncd -o MultiCycleCPU.twr MultiCycleCPU.pcf 
+xst -intstyle ise -ifn "C:/Xilinx/Project2/MultiCycleCPU.xst" -ofn "C:/Xilinx/Project2/MultiCycleCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 MultiCycleCPU.ngc MultiCycleCPU.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o MultiCycleCPU_map.ncd MultiCycleCPU.ngd MultiCycleCPU.pcf 
+par -w -intstyle ise -ol high -mt off MultiCycleCPU_map.ncd MultiCycleCPU.ncd MultiCycleCPU.pcf 
+xst -intstyle ise -ifn "C:/Xilinx/Project2/MultiCycleCPU.xst" -ofn "C:/Xilinx/Project2/MultiCycleCPU.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Project2/MultiCycleCPU.xst" -ofn "C:/Xilinx/Project2/MultiCycleCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 MultiCycleCPU.ngc MultiCycleCPU.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o MultiCycleCPU_map.ncd MultiCycleCPU.ngd MultiCycleCPU.pcf 
+par -w -intstyle ise -ol high -mt off MultiCycleCPU_map.ncd MultiCycleCPU.ncd MultiCycleCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MultiCycleCPU.twx MultiCycleCPU.ncd -o MultiCycleCPU.twr MultiCycleCPU.pcf 
+xst -intstyle ise -ifn "C:/Xilinx/Project2/MultiCycleCPU.xst" -ofn "C:/Xilinx/Project2/MultiCycleCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 MultiCycleCPU.ngc MultiCycleCPU.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o MultiCycleCPU_map.ncd MultiCycleCPU.ngd MultiCycleCPU.pcf 
+par -w -intstyle ise -ol high -mt off MultiCycleCPU_map.ncd MultiCycleCPU.ncd MultiCycleCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MultiCycleCPU.twx MultiCycleCPU.ncd -o MultiCycleCPU.twr MultiCycleCPU.pcf 
+xst -intstyle ise -ifn "C:/Xilinx/Project2/MultiCycleCPU.xst" -ofn "C:/Xilinx/Project2/MultiCycleCPU.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Project2/MultiCycleCPU.xst" -ofn "C:/Xilinx/Project2/MultiCycleCPU.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Project2/MultiCycleCPU.xst" -ofn "C:/Xilinx/Project2/MultiCycleCPU.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Project2/MultiCycleCPU.xst" -ofn "C:/Xilinx/Project2/MultiCycleCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 MultiCycleCPU.ngc MultiCycleCPU.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o MultiCycleCPU_map.ncd MultiCycleCPU.ngd MultiCycleCPU.pcf 
+par -w -intstyle ise -ol high -mt off MultiCycleCPU_map.ncd MultiCycleCPU.ncd MultiCycleCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MultiCycleCPU.twx MultiCycleCPU.ncd -o MultiCycleCPU.twr MultiCycleCPU.pcf 
+xst -intstyle ise -ifn "C:/Xilinx/Project2/MultiCycleCPU.xst" -ofn "C:/Xilinx/Project2/MultiCycleCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 MultiCycleCPU.ngc MultiCycleCPU.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o MultiCycleCPU_map.ncd MultiCycleCPU.ngd MultiCycleCPU.pcf 
+par -w -intstyle ise -ol high -mt off MultiCycleCPU_map.ncd MultiCycleCPU.ncd MultiCycleCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MultiCycleCPU.twx MultiCycleCPU.ncd -o MultiCycleCPU.twr MultiCycleCPU.pcf 
+xst -intstyle ise -ifn "C:/Xilinx/Project2/MultiCycleCPU.xst" -ofn "C:/Xilinx/Project2/MultiCycleCPU.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Project2/MultiCycleCPU.xst" -ofn "C:/Xilinx/Project2/MultiCycleCPU.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Project2/MultiCycleCPU.xst" -ofn "C:/Xilinx/Project2/MultiCycleCPU.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Project2/MultiCycleCPU.xst" -ofn "C:/Xilinx/Project2/MultiCycleCPU.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Project2/MultiCycleCPU.xst" -ofn "C:/Xilinx/Project2/MultiCycleCPU.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Project2/MultiCycleCPU.xst" -ofn "C:/Xilinx/Project2/MultiCycleCPU.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Project2/MultiCycleCPU.xst" -ofn "C:/Xilinx/Project2/MultiCycleCPU.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Project2/MultiCycleCPU.xst" -ofn "C:/Xilinx/Project2/MultiCycleCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 MultiCycleCPU.ngc MultiCycleCPU.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o MultiCycleCPU_map.ncd MultiCycleCPU.ngd MultiCycleCPU.pcf 
+par -w -intstyle ise -ol high -mt off MultiCycleCPU_map.ncd MultiCycleCPU.ncd MultiCycleCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MultiCycleCPU.twx MultiCycleCPU.ncd -o MultiCycleCPU.twr MultiCycleCPU.pcf 
+xst -intstyle ise -ifn "C:/Xilinx/Project2/MultiCycleCPU.xst" -ofn "C:/Xilinx/Project2/MultiCycleCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 MultiCycleCPU.ngc MultiCycleCPU.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o MultiCycleCPU_map.ncd MultiCycleCPU.ngd MultiCycleCPU.pcf 
+par -w -intstyle ise -ol high -mt off MultiCycleCPU_map.ncd MultiCycleCPU.ncd MultiCycleCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MultiCycleCPU.twx MultiCycleCPU.ncd -o MultiCycleCPU.twr MultiCycleCPU.pcf 
+xst -intstyle ise -ifn "C:/Xilinx/Project2/MultiCycleCPU.xst" -ofn "C:/Xilinx/Project2/MultiCycleCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 MultiCycleCPU.ngc MultiCycleCPU.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o MultiCycleCPU_map.ncd MultiCycleCPU.ngd MultiCycleCPU.pcf 
+par -w -intstyle ise -ol high -mt off MultiCycleCPU_map.ncd MultiCycleCPU.ncd MultiCycleCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MultiCycleCPU.twx MultiCycleCPU.ncd -o MultiCycleCPU.twr MultiCycleCPU.pcf 
+xst -intstyle ise -ifn "C:/Xilinx/Project2/MultiCycleCPU.xst" -ofn "C:/Xilinx/Project2/MultiCycleCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 MultiCycleCPU.ngc MultiCycleCPU.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o MultiCycleCPU_map.ncd MultiCycleCPU.ngd MultiCycleCPU.pcf 
+par -w -intstyle ise -ol high -mt off MultiCycleCPU_map.ncd MultiCycleCPU.ncd MultiCycleCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MultiCycleCPU.twx MultiCycleCPU.ncd -o MultiCycleCPU.twr MultiCycleCPU.pcf 

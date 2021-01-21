@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Project2.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="MainFSM_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="MainFSM_stx_beh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="MultiCycleCPU.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="MultiCycleCPU.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="MultiCycleCPU.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="MultiCycleCPU.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="MultiCycleCPU.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="MultiCycleCPU.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="MultiCycleCPU.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="MultiCycleCPU.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="MultiCycleCPU.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="MultiCycleCPU.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="MultiCycleCPU.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="MultiCycleCPU.ptwx"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="MultiCycleCPU.spl"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="MultiCycleCPU.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="MultiCycleCPU.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="MultiCycleCPU.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="MultiCycleCPU.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="MultiCycleCPU.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="MultiCycleCPU.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="MultiCycleCPU.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="MultiCycleCPU.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="MultiCycleCPU_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="MultiCycleCPU_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="MultiCycleCPU_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="MultiCycleCPU_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="MultiCycleCPU_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="MultiCycleCPU_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="MultiCycleCPU_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="MultiCycleCPU_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="MultiCycleCPU_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="MultiCycleCPU_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="MultiCycleCPU_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="MultiCycleCPU_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="MultiCycleCPU_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="MultiCycleCPU_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="MultiCycleCPU_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="tb_top.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="tb_top.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="tb_top.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="tb_top.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="tb_top.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_top.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="tb_top.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="tb_top.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="tb_top.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_top_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_top_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="tb_top_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="tb_top_ngdbuild.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_top_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="tb_top_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="tb_top_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1588940631" xil_pn:name="TRANEXT_compLibraries2_virtex5" xil_pn:prop_ck="5438683702708918982" xil_pn:start_ts="1588940631">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1588941596" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1588941596">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1589031929" xil_pn:in_ck="-6013430378719757678" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1589031929">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="A.v"/>
+      <outfile xil_pn:name="ALU.v"/>
+      <outfile xil_pn:name="ALUControl.v"/>
+      <outfile xil_pn:name="ALUOut.v"/>
+      <outfile xil_pn:name="B.v"/>
+      <outfile xil_pn:name="IR.v"/>
+      <outfile xil_pn:name="MDR.v"/>
+      <outfile xil_pn:name="MEM.v"/>
+      <outfile xil_pn:name="MainFSM.v"/>
+      <outfile xil_pn:name="MultiCycleCPU.v"/>
+      <outfile xil_pn:name="MyFSM.v"/>
+      <outfile xil_pn:name="PC.v"/>
+      <outfile xil_pn:name="RF.v"/>
+      <outfile xil_pn:name="SEU.v"/>
+      <outfile xil_pn:name="TopFSM.v"/>
+      <outfile xil_pn:name="tb_Top.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1589028144" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-6879190067049745569" xil_pn:start_ts="1589028144">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1589028144" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="7209965914410927101" xil_pn:start_ts="1589028144">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1588943548" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="7891215102067891360" xil_pn:start_ts="1588943548">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1589031929" xil_pn:in_ck="-6013430378719757678" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1589031929">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="A.v"/>
+      <outfile xil_pn:name="ALU.v"/>
+      <outfile xil_pn:name="ALUControl.v"/>
+      <outfile xil_pn:name="ALUOut.v"/>
+      <outfile xil_pn:name="B.v"/>
+      <outfile xil_pn:name="IR.v"/>
+      <outfile xil_pn:name="MDR.v"/>
+      <outfile xil_pn:name="MEM.v"/>
+      <outfile xil_pn:name="MainFSM.v"/>
+      <outfile xil_pn:name="MultiCycleCPU.v"/>
+      <outfile xil_pn:name="MyFSM.v"/>
+      <outfile xil_pn:name="PC.v"/>
+      <outfile xil_pn:name="RF.v"/>
+      <outfile xil_pn:name="SEU.v"/>
+      <outfile xil_pn:name="TopFSM.v"/>
+      <outfile xil_pn:name="tb_Top.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1589031932" xil_pn:in_ck="-6013430378719757678" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-3025582375715545971" xil_pn:start_ts="1589031929">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="tb_top_beh.prj"/>
+      <outfile xil_pn:name="tb_top_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1589031933" xil_pn:in_ck="6422141344499060145" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-6758435293214337072" xil_pn:start_ts="1589031932">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="tb_top_isim_beh.wdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1588939838" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1588939838">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1588940670" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-6700310001316101288" xil_pn:start_ts="1588940670">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1588940670" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="7891215102067891360" xil_pn:start_ts="1588940670">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1588939838" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1588939838">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1588940670" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-5204236752183691590" xil_pn:start_ts="1588940670">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1588939838" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="3206529612922900429" xil_pn:start_ts="1588939838">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1588940670" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="1947553553541420394" xil_pn:start_ts="1588940670">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1589031775" xil_pn:in_ck="2196120217124912582" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="-909852729645788067" xil_pn:start_ts="1589031718">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="MultiCycleCPU.lso"/>
+      <outfile xil_pn:name="MultiCycleCPU.ngc"/>
+      <outfile xil_pn:name="MultiCycleCPU.ngr"/>
+      <outfile xil_pn:name="MultiCycleCPU.prj"/>
+      <outfile xil_pn:name="MultiCycleCPU.stx"/>
+      <outfile xil_pn:name="MultiCycleCPU.syr"/>
+      <outfile xil_pn:name="MultiCycleCPU.xst"/>
+      <outfile xil_pn:name="MultiCycleCPU_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1588941672" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-2979034646706766747" xil_pn:start_ts="1588941672">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1589031787" xil_pn:in_ck="6691980564674763511" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-4047263182003197839" xil_pn:start_ts="1589031775">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="MultiCycleCPU.bld"/>
+      <outfile xil_pn:name="MultiCycleCPU.ngd"/>
+      <outfile xil_pn:name="MultiCycleCPU_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1589031853" xil_pn:in_ck="-7089963801145747926" xil_pn:name="TRANEXT_map_virtex7" xil_pn:prop_ck="2100985583056581773" xil_pn:start_ts="1589031787">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="MultiCycleCPU.pcf"/>
+      <outfile xil_pn:name="MultiCycleCPU_map.map"/>
+      <outfile xil_pn:name="MultiCycleCPU_map.mrp"/>
+      <outfile xil_pn:name="MultiCycleCPU_map.ncd"/>
+      <outfile xil_pn:name="MultiCycleCPU_map.ngm"/>
+      <outfile xil_pn:name="MultiCycleCPU_map.xrpt"/>
+      <outfile xil_pn:name="MultiCycleCPU_summary.xml"/>
+      <outfile xil_pn:name="MultiCycleCPU_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1589031912" xil_pn:in_ck="-331755223848834493" xil_pn:name="TRANEXT_par_virtex5" xil_pn:prop_ck="-2283627392121029586" xil_pn:start_ts="1589031853">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="MultiCycleCPU.ncd"/>
+      <outfile xil_pn:name="MultiCycleCPU.pad"/>
+      <outfile xil_pn:name="MultiCycleCPU.par"/>
+      <outfile xil_pn:name="MultiCycleCPU.ptwx"/>
+      <outfile xil_pn:name="MultiCycleCPU.unroutes"/>
+      <outfile xil_pn:name="MultiCycleCPU.xpi"/>
+      <outfile xil_pn:name="MultiCycleCPU_pad.csv"/>
+      <outfile xil_pn:name="MultiCycleCPU_pad.txt"/>
+      <outfile xil_pn:name="MultiCycleCPU_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1589031912" xil_pn:in_ck="-7089963801145748058" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1589031895">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="MultiCycleCPU.twr"/>
+      <outfile xil_pn:name="MultiCycleCPU.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+  </transforms>
+
+</generated_project>

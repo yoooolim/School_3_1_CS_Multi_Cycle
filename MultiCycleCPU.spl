@@ -1,0 +1,10 @@
+[Inputs]
+i_clk
+i_rst_n
+[Outputs]
+=o_data_out[31:0]=
+=o_state[7:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel MultiCycleCPU
+
